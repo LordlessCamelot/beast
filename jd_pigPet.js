@@ -5,6 +5,7 @@
 加了个邀新助力，不过应该没啥用。邀请码变量：PIGPETSHARECODES，变量仅支持单账号邀请码
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+cron "40,45 23 * * *"
 *
 */
 const $ = new Env('金融养猪');
