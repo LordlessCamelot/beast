@@ -2,6 +2,17 @@
 整点京豆雨
 更新时间：2021-12-8
 脚本兼容: Quantumult X, Surge, Loon, JSBox, Node.js
+==============Quantumult X==============
+[task_local]
+#整点京豆雨
+0 * * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_redrain.js, tag=整点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+==============Loon==============
+[Script]
+cron "0 * * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_redrain.js,tag=整点京豆雨
+================Surge===============
+整点京豆雨 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_redrain.js
+===============小火箭==========
+整点京豆雨 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_redrain.js, cronexpr="0 * * * *", timeout=3600, enable=true
 */
 const $ = new Env('整点京豆雨');
 const notify = $.isNode() ? require('./sendNotify') : '';

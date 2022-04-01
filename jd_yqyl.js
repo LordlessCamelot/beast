@@ -3,8 +3,19 @@
 活动地址: 京东极速版-我的-百元现金
 活动时间：2.28结束
 更新时间：2021-11-9
-脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js 
-*/
+脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
+=================================Quantumultx=========================
+[task_local]
+#邀请有礼
+45 0 * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_yqyl.js, tag=邀请有礼, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+=================================Loon===================================
+[Script]
+cron "45 0 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_yqyl.js,tag=邀请有礼
+===================================Surge================================
+邀请有礼 = type=cron,cronexp="45 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_yqyl.js
+====================================小火箭=============================
+邀请有礼 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_yqyl.js, cronexpr="45 0 * * *", timeout=3600, enable=true
+ */
 const $ = new Env('邀请有礼');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
@@ -20,7 +31,7 @@ if (process.env.yqm) {
 if (process.env.zdtx) {
     zdtx = process.env.zdtx;
 }
-let helpAuthorFlag = false;//是否助力作者SH  true 助力，false 不助力
+let helpAuthorFlag = true;//是否助力作者SH  true 助力，false 不助力
 let helpAuthorInfo = []
 
 if ($.isNode()) {
