@@ -2,7 +2,7 @@
 #极速版赚金币
 ##入口为极速版 百元生活费 赚金币 邀请好友
 ##第一次运行可不填写邀请码 运行一次查看自己的邀请码
-export InviterPin="9vOskAagcMJ4EOWXPQSS9A%3D%3D" ##你的邀请码
+export InviterPin="Bf2vMGuisX34i7Z7hamw4qJSBMH4gWESuGJG/UJ6mpg=" ##你的邀请码
 ##助力逻辑：填写你的邀请码变量之后会助力你填写的邀请码
 
 
@@ -63,7 +63,7 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
       if (InviterPin.length != 0) {
         await help()
       } else {
-        await help2("zjb",Math.random() > 0.5 ? "9vOskAagcMJ4EOWXPQSS9A%3D%3D" : "9irilvenEupYF488TUrl19DLuKQ9zWnXYHf9anC0ujw%3D")        
+        await help2("zjb",Math.random() > 0.5 ? "Bf2vMGuisX34i7Z7hamw4qJSBMH4gWESuGJG/UJ6mpg=" : "9irilvenEupYF488TUrl19DLuKQ9zWnXYHf9anC0ujw%3D")        
       }
     }
   }

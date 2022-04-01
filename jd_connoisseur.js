@@ -3,20 +3,6 @@
 更新时间：2021-09-09
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-============Quantumultx===============
-[task_local]
-#内容鉴赏官
-15 3,6 * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_connoisseur.js, tag=内容鉴赏官, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-
-================Loon==============
-[Script]
-cron "15 3,6 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_connoisseur.js,tag=内容鉴赏官
-
-===============Surge=================
-内容鉴赏官 = type=cron,cronexp="15 3,6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_connoisseur.js
-
-============小火箭=========
-内容鉴赏官 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_connoisseur.js, cronexpr="15 3,6 * * *", timeout=3600, enable=true
  */
 const $ = new Env('内容鉴赏官');
 const notify = $.isNode() ? require('./sendNotify') : '';
