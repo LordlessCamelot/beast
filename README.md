@@ -3,5 +3,5 @@
 
 # **拉库：**  
 ```
-ql repo https://github.com/LordlessCamelot/Camelot.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|magic|USER|utils|function|sign|sendNotify|ql|JDJR"
+ql repo https://github.com/LordlessCamelot/beast.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|magic|USER|utils|function|sign|sendNotify|ql|JDJR"
 ```
