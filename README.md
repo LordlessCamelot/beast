@@ -1,5 +1,12 @@
 # beast
-自用，收集于kr，去除所有加密脚本
+> * 收集于kr
+> * 此库仅用来存储脚本
+> * 加密脚本在[backup](https://github.com/LordlessCamelot/beast/tree/main/backUp)文件夹
+
+# warning
+   
+> * 请勿使用   
+> * 请勿传播
 
 # **拉库：**  
 ```
