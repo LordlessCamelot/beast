@@ -1,7 +1,7 @@
 # beast
 > * 收集于kr
 > * 此库仅用来存储脚本
-> * 加密脚本在[backup](https://github.com/LordlessCamelot/beast/tree/main/backUp)文件夹
+> * 加密脚本在[backUp](https://github.com/LordlessCamelot/beast/tree/main/backUp)文件夹
 
 # warning
    
